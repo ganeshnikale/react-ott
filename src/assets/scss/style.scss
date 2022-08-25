@@ -1,0 +1,9 @@
+@import "./variables";
+
+$theme-colors: (
+  "primary":    $color1,
+);
+
+@import "./bootstrap-5/scss/bootstrap.scss";
+@import "./header";
+
