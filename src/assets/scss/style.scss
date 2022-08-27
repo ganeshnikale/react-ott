@@ -1,9 +1,17 @@
-@import "./variables";
+@import './abstract/variables';
+@import './abstract/mixin';
+@import './abstract/function';
 
-$theme-colors: (
-  "primary":    $color1,
-);
+@import './bootstrap-5/scss/bootstrap';
 
-@import "./bootstrap-5/scss/bootstrap.scss";
-@import "./header";
 
+@import './base/animation';
+@import './base/base';
+// @import './base/fonts';
+@import './base/typo';
+@import './base/utility';
+
+ 
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/footer';

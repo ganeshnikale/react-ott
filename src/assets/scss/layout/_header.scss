@@ -1,0 +1,42 @@
+header{
+    background-color: $white;
+    @include box-shadow(0, 2px, 9px, 0, rgba(0, 0, 0, 0.1));
+    padding: 15px 15px 10px 15px;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 9;
+}
+
+main{
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20PX;
+    width: calc(100% - 40px);
+    @include media-breakpoint-up(md) { 
+        margin-left: 290px;
+        margin-right: 0PX;
+        width: calc(100% - 310px);
+     }
+
+    > .container {
+        max-width: 100%;
+        padding: 0;
+
+    }
+   
+    &.full-width {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+   
+}
+
+
+.logo{
+    width: 120px;
+}
