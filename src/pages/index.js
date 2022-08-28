@@ -1,12 +1,12 @@
 import * as React from "react"
 import Layout from '../component/Layout';
-
+import HomePage from "./homePage";
 
 const IndexPage = () => {
   return (
   <Layout>
 
-    <h2>hello from home page</h2>
+    <HomePage/>
   </Layout>
   )
 }
