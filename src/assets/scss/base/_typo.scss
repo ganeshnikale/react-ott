@@ -2,7 +2,7 @@
 
 
 h1,h2,h3,h4,h5,h6{
-    font-family: $fontBold;
+    font-family: poppins-600;
     color: $headings-color;
 }
 
@@ -20,9 +20,7 @@ h1 {
     @include media-breakpoint-up(xl) { 
         font-size: 2.8rem;
      }
-    &.heading-secondary {
-        font-family: $fontSemiBold;
-    }
+    
 }
 
 h2{
@@ -39,9 +37,7 @@ h2{
     @include media-breakpoint-up(xl) { 
         font-size: 2.2rem;
      }
-    &.heading-tertiary{
-        font-family: $fontSemiBold;
-    }
+    
 }
 
 h3{
@@ -65,12 +61,7 @@ h4{
     @include media-breakpoint-up(lg) {
         font-size: 1.6rem;
       }
-    &.heading-secondary{
-        font-family: $fontSemiBold;
-    }
-    &.heading-tertiary{
-        font-family: $fontReg;
-    }
+   
 }
 h5{
     font-size: 1.6rem;
@@ -81,38 +72,4 @@ h6 {
 
 p{
     font-size: 1.4rem;
-    color: $gray2;
-
-    &.icon-text {
-        background-repeat: no-repeat;
-        background-size: 17px;
-        padding-left: 30px;
-        background-position: 0px 2px;
-    }
-
-    &.timestap {
-        color: $gray2;
-        @include font-size(14);
-        font-family: $fontReg;
-    }
 }
-
-
-h1.page-title {
-    font-size:2.8rem;
-    font-family: $fontSemiBold;
-    color: $gray1;
-    margin: spacing(30) 0;
-
-    @include media-breakpoint-up(md) { 
-        font-size: 2.2rem;
-     }
-    @include media-breakpoint-up(lg) {
-        font-size: 2.4rem;
-      }
-    @include media-breakpoint-up(xl) { 
-        font-size: 2.6rem;
-     }
-
-}
-

@@ -29,21 +29,10 @@ html {
 
 body {
     box-sizing: border-box;
-    font-family: $fontReg;
-    color: #000;
     font-size: 1rem;
-    background-color: $bodyBg;
     transition: all 0.3s ease;
-
-    &.menu-open {
-        .left-nav-wraper {
-            left: 0;
-        }
-        .backdrop {
-            display: block;
-          }
-    }
-
+    background-color: $primaryColor;
+    font-family: 'poppins-600';
 }
 
 
@@ -56,10 +45,7 @@ a{
     transition: all 0.3s ease;
 }
 
-.container{
-    max-width: 1920px;
-    width: 100%;
-}
+
 
 .show {
     display: block ;

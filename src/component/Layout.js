@@ -5,10 +5,14 @@ import Footer from './footer'
 
 const Layout = (props) => {
     console.log(props);
-    return  <div>
-        <Header/>
-        {props.children}
-        <Footer/>
+    return  <div className="container">
+        <div className="row">
+            <div className="col-12">
+                <Header/>
+                {props.children}
+                <Footer/>
+            </div>
+        </div>
     </div>
 }
 

@@ -1,37 +1,29 @@
-[
-  {
-    "id": 10,
-    "title": "HP Pavilion 15-DK1056WM",
-    "description": "HP Pavilion 15-DK1056WM Gaming...",
-    "price": 1099,
-    "discountPercentage": 6.18,
-    "rating": 4.43,
-    "stock": 89,
-    "brand": "HP Pavilion",
-    "category": "laptops",
-    "thumbnail": "https://dummyjson.com/image/i/products/10/thumbnail.jpeg",
-    "images": [
-      "https://dummyjson.com/image/i/products/10/1.jpg",
-      "https://dummyjson.com/image/i/products/10/2.jpg",
-      "https://dummyjson.com/image/i/products/10/3.jpg",
-      "https://dummyjson.com/image/i/products/10/thumbnail.jpeg"
-    ]
-  },{
-    "id": 10,
-    "title": "HP Pavilion 15-DK1056WM",
-    "description": "HP Pavilion 15-DK1056WM Gaming...",
-    "price": 1099,
-    "discountPercentage": 6.18,
-    "rating": 4.43,
-    "stock": 89,
-    "brand": "HP Pavilion",
-    "category": "laptops",
-    "thumbnail": "https://dummyjson.com/image/i/products/10/thumbnail.jpeg",
-    "images": [
-      "https://dummyjson.com/image/i/products/10/1.jpg",
-      "https://dummyjson.com/image/i/products/10/2.jpg",
-      "https://dummyjson.com/image/i/products/10/3.jpg",
-      "https://dummyjson.com/image/i/products/10/thumbnail.jpeg"
-    ]
-  }
-]
+[{
+	"packageList": [{
+		"packageDuration": "monthly",
+		"details": [{
+				"packageName": "Ultimate",
+				"Price": "191",
+				"logos": ["iamges url", "iamges url", "iamges url", "iamges url"]
+			},
+			{
+				"packageName": "Ultimate",
+				"Price": "191",
+				"logos": ["iamges url", "iamges url", "iamges url", "iamges url"]
+			}
+		]
+	},{
+		"packageDuration": "yearly",
+		"details": [{
+				"packageName": "Ultimate",
+				"Price": "191",
+				"logos": ["iamges url", "iamges url", "iamges url", "iamges url"]
+			},
+			{
+				"packageName": "Ultimate",
+				"Price": "191",
+				"logos": ["iamges url", "iamges url", "iamges url", "iamges url"]
+			}
+		]
+	}]
+}]

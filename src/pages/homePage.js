@@ -1,11 +1,18 @@
 import React from "react";
+import Banner from "../component/banner";
 import PackageList from "../component/packageList";
 
 
 
 const HomePage = () => {
-    return <PackageList></PackageList>
+    return (
+    <>
+
+    <Banner></Banner>
+<PackageList></PackageList>
+    </>
+    );
 }
 
 
-export  default HomePage;
+export default HomePage;
